@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'jasefin Sans', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .background{
@@ -70,7 +69,7 @@ nav ul li a:hover{
     position: absolute;
     top: 50%;
     left: 8%;
-    transform: translateY(-50);
+    transform: translateY(-50%);
 }
 
 h4{
