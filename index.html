@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self'; form-action 'self'; frame-ancestors 'none';">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
      <link rel="stylesheet" href="style.css">
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" 
@@ -32,9 +36,10 @@
             <h3>Eu sou um desenvolvedor web</h3>
             <div class="Container-btn">
                 <form>
-                    <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
+                    <input type="email" name="email" id="mail" placeholder="Envie seu Email" required autocomplete="email">
                     <input type="submit" name="submit" value="Começar">
                 </form>
+            </div> <!--Container-btn-->
           </div> <!--Main-->
     </div><!--background-->
 </body>
